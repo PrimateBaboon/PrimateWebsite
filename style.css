@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&family=Teko:wght@500&display=swap');
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.03);
+    z-index: 100;
+}
+
+.nav a {
+    font-family: 'Work Sans';
+    text-decoration: none;
+}
+
+#main {
+    width: 100%;
+    height: 15vh;
+    position: relative;
+}
+
+.img1 {
+    border-top: 0.2rem;
+    border-bottom: 0.2rem;
+    padding: 0.25rem;
+    width: 3rem;
+    border-radius: 1.75rem;
+}
+
+.img2 {
+    width: 50%;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 2em;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li a {
+    height: 1em;
+    line-height: 2rem;
+    margin: 3px;
+    padding: 0.75rem;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu li a:hover {
+    background-color: mediumaquamarine;
+    transition: all ease 0s;
+    color: white;
+}
+
+.Contact-Me {
+    color: #39bfbd;
+    font-size: 0.9em;
+    padding: 0.35rem;
+    font-family: 'poppins', sans-serif;
+    line-height: 30px;
+}
+
+.Contact-Me:hover {
+    background-color: mediumaquamarine;
+    transition: all ease 0.s;
+    color: white;
+}
+
+.Content {
+    padding-top: 3rem;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    position: absolute;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.Section1 {
+    padding-left: 10%;
+}
+
+.Resume-btn {
+    Height: 2.25rem;
+    width: 10rem;
+    background-color: lightseagreen;
+    border-radius: 20px;
+    box-shadow: 3px 8px 20px rgba(0, 0, 0, 0.02);
+}
+
+.Resume-btn:hover {
+    background-color: mediumaquamarine;
+    transition: all ease 0.2s;
+}
+
+.para {
+    font-family: Helvetica;
+}
+
+.Recent_h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Content_h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+}
+
+.Content_div {
+    display: flex;
+    padding-top: 50rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+.name_input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    border-color: gray;
+}
+
+.Content_div_img {
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.Contact {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 4rem;
+}
